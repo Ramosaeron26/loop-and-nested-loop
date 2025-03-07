@@ -1,0 +1,9 @@
+#include <iostream>
+int main() {
+    // Loop to print even numbers from 10 down to 0
+    for (int i = 10; i >= 0; i -= 2) {
+        std::cout << i << " ";  
+    }
+    std::cout << std::endl;
+    return 0;  
+}
